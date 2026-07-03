@@ -1,61 +1,98 @@
-# Himanshu Kumar — Premium Portfolio
+# Himanshu Kumar Portfolio
 
-A polished personal portfolio built with React, Vite, and Tailwind CSS.
+A modern, polished personal portfolio website built with React, Vite, and Tailwind CSS. It highlights my projects, skills, experience, certifications, education, and a quick way to connect with me.
+
+## Live Demo
+
+Visit the portfolio here:
+- https://himanshu-kumar-portfolio.vercel.app/
 
 ## Overview
 
-This portfolio website showcases projects, certificates, skills, experience, education, and a contact form with WhatsApp integration. It includes a responsive mobile-first layout, a custom animated cursor, a loading screen, and a sleek glassmorphism design.
+This portfolio is designed to feel premium, responsive, and interactive. It includes:
+- a dynamic hero section
+- animated UI elements and smooth scrolling
+- project showcases with filters
+- certificates and achievements sections
+- a contact experience that opens WhatsApp with a prefilled message
 
 ## Tech Stack
 
-- React 19 + Vite
+- React 19
+- Vite
 - Tailwind CSS
 - React Icons
-- Three.js for hero visuals
-- Custom hooks for smooth scrolling and active section tracking
+- Three.js
+- ESLint
 
 ## Key Features
 
-- Responsive hero and content sections for mobile, tablet, and desktop
-- Custom loader with animated spinner
-- Animated navbar with mobile slide-over menu
-- Typed role animation in the hero section
-- Project filtering and responsive project cards
-- Certificates section with click-to-open images
-- Contact form opening WhatsApp with prefilled message
-- Smooth scrolling and modern glass UI styling
+- Responsive layout for mobile, tablet, and desktop
+- Animated navigation and loader experience
+- Smooth section transitions and scroll-based interactions
+- Project cards with external links and category filtering
+- Certificates section with visual previews
+- Contact section with direct WhatsApp integration
 
-## Folder Structure
+## Project Structure
 
-- `src/components` — reusable UI components
-- `src/sections` — page sections for each portfolio area
-- `src/hooks` — custom hooks for scrolling and behavior
-- `src/constants` — portfolio data and links
+- src/components — reusable UI components
+- src/sections — major page sections such as About, Projects, Experience, and Contact
+- src/hooks — custom hooks for scroll and active section behavior
+- src/constants — portfolio content such as projects, skills, and social links
 
-## Local Setup
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or bun
+
+### Installation
 
 ```bash
 npm install
+```
+
+### Run locally
+
+```bash
 npm run dev
 ```
 
-Open `http://localhost:5173` in your browser.
+Then open http://localhost:5173 in your browser.
 
-## Build for Production
+### Build for production
 
 ```bash
 npm run build
+```
+
+To preview the production build:
+
+```bash
 npm run preview
 ```
 
-## Customize Content
+## Customization
 
-Edit your personal data, links, and images in:
+Update your personal information and portfolio content in:
+- src/constants/portfolioData.js
+- src/sections/Contact.jsx
 
-- `src/constants/portfolioData.js`
+You can also replace images in the public/images folder to personalize the site.
 
-Also replace the hero image in `public/images/hh.jpg` and update contact or WhatsApp number in `src/sections/Contact.jsx`.
+## Deployment
 
-## Notes
+This project can be deployed easily on:
+- Vercel
+- Netlify
+- GitHub Pages
 
-If you want to deploy this project, use any static hosting service such as GitHub Pages, Netlify, or Vercel.
+## Contact
+
+If you’d like to connect, reach out through the contact section on the website or via:
+- GitHub: https://github.com/Himanshu-Kumar-LPU
+- LinkedIn: https://www.linkedin.com/in/himanshu-kumar-4b87ab320/
+- Email: kumarhimanshu995573@gmail.com
+
