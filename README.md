@@ -5,7 +5,7 @@ A modern, polished personal portfolio website built with React, Vite, and Tailwi
 ## Live Demo
 
 Visit the portfolio here:
-- https://himanshu-kumar-portfolio.vercel.app/
+- https://himanshu-kumar-portfolio-sigma.vercel.app/
 
 ## Overview
 
